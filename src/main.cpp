@@ -68,16 +68,16 @@ void init_Config(_ConfigSystem *configSystem) {
                 configSystem->encryptConfig->public_key,
                 configSystem->encryptConfig->n);
     
-    configSystem->list_mac_receive[0] = MAC_GATWAY;
-    configSystem->list_mac_receive[1] = MAC_NODE;
-    // configSystem->list_mac_receive[0] = "212:138:252:198:165:156";
-    // configSystem->list_mac_receive[1] = "232:107:234:246:222:104";
-    // configSystem->list_mac_receive[2] = "216:188:56:251:182:176";
-    // configSystem->list_mac_receive[3] = "228:101:184:113:147:96";
-    configSystem->len_list_mac_receive = 2;
+    // configSystem->list_mac_receive[0] = MAC_GATWAY;
+    // configSystem->list_mac_receive[1] = MAC_NODE;
+    configSystem->list_mac_receive[0] = "212:138:252:198:165:156";
+    configSystem->list_mac_receive[1] = "232:107:234:246:222:104";
+    configSystem->list_mac_receive[2] = "216:188:56:251:182:176";
+    configSystem->list_mac_receive[3] = "228:101:184:113:147:96";
+    configSystem->len_list_mac_receive = 4;
 
-    // configSystem->MacDes = "228:101:184:113:147:96";
-    configSystem->MacDes = MAC_GATWAY;
+    configSystem->MacDes = "228:101:184:113:147:96";
+    // configSystem->MacDes = MAC_GATWAY;
 
     configSystem->ssidWifi = "FPT-Telecom-0CE";
     configSystem->passwordWifi = "0373986375";
