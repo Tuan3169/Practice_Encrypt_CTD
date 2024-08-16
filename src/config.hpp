@@ -82,7 +82,7 @@
 // #define MAC_GATWAY               "232:107:234:246:222:104"
 // #define MAC_NODE                 "216:188:56:250:127:40"
 #define MODE_CRYPT               MODE_AES_RSA
-#define MODE_SYSTEM_LORA         MODE_NODE
+#define MODE_SYSTEM_LORA         MODE_GATEWAY
 #define MODE_SD                  MODE_STORE_SD
 #define UPDATE_TIME              HAS_UPDATE_TIME
 #define MODE_LORA_SEND           MODE_LORA_SEND_TEST

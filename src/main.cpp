@@ -1265,6 +1265,6 @@ void TaskGateWayLora(void *pvParameter) {
             }
             
         }
-        vTaskDelay(50/portTICK_PERIOD_MS);
+        vTaskDelay(23/portTICK_PERIOD_MS);
     }
 }
